@@ -14,5 +14,5 @@ import java.rmi.RemoteException;
  */
 public interface ICotes extends Remote{
     public Factura[] pendientes(int idcliente) throws RemoteException;
-    String pagar(Factura[] fact) throws RemoteException;
+    public void pagar(Factura[] fact) throws RemoteException;
 }

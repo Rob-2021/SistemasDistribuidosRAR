@@ -12,8 +12,8 @@ import java.io.Serializable;
  * @author MSI GAMING
  */
 public class Empresa implements Serializable{
-    String nombre;
-    Long NIT;
+    private String nombre;
+    private Long NIT;
 
     public Empresa(String nombre, Long NIT) {
         this.nombre = nombre;
@@ -35,6 +35,10 @@ public class Empresa implements Serializable{
     public void setNIT(Long NIT) {
         this.NIT = NIT;
     }
-    
+
+    @Override
+    public String toString() {
+        return "Empresa{" + "nombre=" + nombre + ", NIT=" + NIT + '}';
+    }
     
 }

@@ -12,11 +12,11 @@ import java.io.Serializable;
  * @author MSI GAMING
  */
 public class Factura implements Serializable{
-    Empresa empresa;
-    int idfactura;
-    Mes mes;
-    int anio;
-    double monto;
+    private Empresa empresa;
+    private int idfactura;
+    private Mes mes;
+    private int anio;
+    private double monto;
 
     public Factura(Empresa empresa, int idfactura, Mes mes, int anio, double monto) {
         this.empresa = empresa;
@@ -64,6 +64,11 @@ public class Factura implements Serializable{
 
     public void setMonto(double monto) {
         this.monto = monto;
+    }
+
+    @Override
+    public String toString() {
+        return "Factura{" + "empresa=" + empresa + ", idfactura=" + idfactura + ", mes=" + mes + ", anio=" + anio + ", monto=" + monto + '}';
     }
 
 

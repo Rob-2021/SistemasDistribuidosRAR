@@ -1,8 +1,11 @@
 com\mycompany\laboratorio1amachuy\IBanco.class
+com\mycompany\laboratorio1amachuy\ICotes.class
+com\mycompany\laboratorio1amachuy\ServidorCotes.class
 com\mycompany\laboratorio1amachuy\ClienteBanco.class
 com\mycompany\laboratorio1amachuy\Factura.class
+com\mycompany\laboratorio1amachuy\RMI.class
 com\mycompany\laboratorio1amachuy\ICessa.class
-com\mycompany\laboratorio1amachuy\BancolRMI.class
 com\mycompany\laboratorio1amachuy\Empresa.class
 com\mycompany\laboratorio1amachuy\ServidorBanco.class
+com\mycompany\laboratorio1amachuy\ServidorCessa.class
 com\mycompany\laboratorio1amachuy\Mes.class

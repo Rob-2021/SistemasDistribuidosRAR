@@ -14,5 +14,5 @@ import java.rmi.RemoteException;
  */
 public interface IBanco extends Remote{
     public Factura[] calcular(int idcliente) throws RemoteException;
-    String pagar(Factura[] fact) throws RemoteException;
+    public String pagar(Factura[] fact) throws RemoteException;
 }
