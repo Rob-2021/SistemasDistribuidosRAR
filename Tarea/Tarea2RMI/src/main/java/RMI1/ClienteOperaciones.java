@@ -32,7 +32,6 @@ public class ClienteOperaciones {
             operacion = (IOperaciones) Naming.lookup("rmi://localhost/Operaciones"); // instanciar un objeto remoto 
             
             while (!salir) {
-                //operacion = (IOperaciones) Naming.lookup("rmi://localhost/Operaciones"); // instanciar un objeto remoto 
                 System.out.println("Elija una opcion");
                 System.out.println("1.Sumatoria");
                 System.out.println("2.Factorial");

@@ -1,4 +1,9 @@
-RMI1\ServidorOperaciones.class
 RMI1\ClienteOperaciones.class
-RMI1\operacionesRMI.class
+RMI2\ILibro.class
+RMI2\ServidorLibros.class
 RMI1\IOperaciones.class
+RMI1\ServidorOperaciones.class
+RMI1\operacionesRMI.class
+RMI2\Libro.class
+RMI2\ClienteLibro.class
+RMI2\LibrosRMI.class
