@@ -1,0 +1,10 @@
+E:\Trabajos\SIS-258 Sistemas Distribuidos\SistemasDistribuidosRAR\Laboratorio\SERECU\ConsumoAPi\bin\Debug\ConsumoAPi.exe.config
+E:\Trabajos\SIS-258 Sistemas Distribuidos\SistemasDistribuidosRAR\Laboratorio\SERECU\ConsumoAPi\bin\Debug\ConsumoAPi.exe
+E:\Trabajos\SIS-258 Sistemas Distribuidos\SistemasDistribuidosRAR\Laboratorio\SERECU\ConsumoAPi\bin\Debug\ConsumoAPi.pdb
+E:\Trabajos\SIS-258 Sistemas Distribuidos\SistemasDistribuidosRAR\Laboratorio\SERECU\ConsumoAPi\obj\Debug\ConsumoAPi.csprojAssemblyReference.cache
+E:\Trabajos\SIS-258 Sistemas Distribuidos\SistemasDistribuidosRAR\Laboratorio\SERECU\ConsumoAPi\obj\Debug\ConsumoAPi.Form1.resources
+E:\Trabajos\SIS-258 Sistemas Distribuidos\SistemasDistribuidosRAR\Laboratorio\SERECU\ConsumoAPi\obj\Debug\ConsumoAPi.Properties.Resources.resources
+E:\Trabajos\SIS-258 Sistemas Distribuidos\SistemasDistribuidosRAR\Laboratorio\SERECU\ConsumoAPi\obj\Debug\ConsumoAPi.csproj.GenerateResource.cache
+E:\Trabajos\SIS-258 Sistemas Distribuidos\SistemasDistribuidosRAR\Laboratorio\SERECU\ConsumoAPi\obj\Debug\ConsumoAPi.csproj.CoreCompileInputs.cache
+E:\Trabajos\SIS-258 Sistemas Distribuidos\SistemasDistribuidosRAR\Laboratorio\SERECU\ConsumoAPi\obj\Debug\ConsumoAPi.exe
+E:\Trabajos\SIS-258 Sistemas Distribuidos\SistemasDistribuidosRAR\Laboratorio\SERECU\ConsumoAPi\obj\Debug\ConsumoAPi.pdb
