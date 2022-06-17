@@ -27,7 +27,7 @@ namespace SERECU
             persona.nombre = "Cristian";
             persona.primerApellido = "Aguilar";
             persona.segundoApellido = "Pinto";
-            persona.fechaDefuncion = "15/03/89";
+            persona.fechaNacimiento = "15/03/89";
             persona.sexo = "M";
             persona.estadoCivil = "Casado";
 
@@ -48,16 +48,16 @@ namespace SERECU
             Persona persona = new Persona();
             Persona error = new Persona();
 
-            persona.Carnet = "78553499";
-            persona.Nombre = "Cristian";
-            persona.PrimerApellido = "Aguilar";
-            persona.SegundoApellido = "Pinto";
-            persona.FechaNacimiento = "15/03/96";
-            persona.DatosPadre = "Mauricio Aguilar Flores";
-            persona.DatosMadre = "Maria Pinto Villanueva";
+            persona.carnet = "78553499";
+            persona.nombre = "Cristian";
+            persona.primerApellido = "Aguilar";
+            persona.segundoApellido = "Pinto";
+            persona.fechaNacimiento = "15/03/96";
+            persona.datosPadre = "Mauricio Aguilar Flores";
+            persona.datosMadre= "Maria Pinto Villanueva";
 
-            error.Nombre = "Error";
-            if (ci == persona.Carnet)
+            error.nombre = "Error";
+            if (ci == persona.carnet)
             {
                 return persona;
             }
@@ -74,17 +74,17 @@ namespace SERECU
             Persona persona = new Persona();
             Persona error = new Persona();
 
-            persona.Carnet = "78553499";
-            persona.Nombre = "Cristian";
-            persona.PrimerApellido = "Aguilar";
-            persona.SegundoApellido = "Pinto";
-            persona.esposo.Carnet = "98437313";
-            persona.esposo.Nombre = "Mariana";
-            persona.esposo.PrimerApellido = "Lopez";
-            persona.esposo.SegundoApellido = "Choque";
+            persona.carnet = "78553499";
+            persona.nombre = "Cristian";
+            persona.primerApellido = "Aguilar";
+            persona.segundoApellido = "Pinto";
+            persona.esposo.carnet = "98437313";
+            persona.esposo.nombre = "Mariana";
+            persona.esposo.primerApellido = "Lopez";
+            persona.esposo.segundoApellido = "Choque";
 
-            error.Nombre = "Error";
-            if (ci == persona.Carnet)
+            error.nombre = "Error";
+            if (ci == persona.carnet)
             {
                 return persona;
             }
@@ -100,15 +100,15 @@ namespace SERECU
             Persona persona = new Persona();
             Persona error = new Persona();
 
-            persona.Carnet = "78553499";
-            persona.Nombre = "Cristian";
-            persona.PrimerApellido = "Aguilar";
-            persona.SegundoApellido = "Pinto";
-            persona.FechaDefuncion = "15/03/2020";
-            persona.Causa = "Intoxicacion";
+            persona.carnet = "78553499";
+            persona.nombre = "Cristian";
+            persona.primerApellido= "Aguilar";
+            persona.segundoApellido = "Pinto";
+            persona.fechaNacimiento = "15/03/2020";
+            persona.causa = "Intoxicacion";
 
-            error.Nombre = "Error";
-            if (ci == persona.Carnet)
+            error.nombre = "Error";
+            if (ci == persona.carnet)
             {
                 return persona;
             }
