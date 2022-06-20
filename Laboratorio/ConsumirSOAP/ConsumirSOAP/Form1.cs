@@ -22,6 +22,8 @@ namespace ConsumirSOAP
             SERECI.WebService1SoapClient sw = new SERECI.WebService1SoapClient();
             SERECI.Persona p = sw.ObtenerDatos(txtCi.Text);
             string carnet = txtCi.Text.ToString();
+            txtCi.Text = "";
+            txtCi.Focus();
 
             if (p != null)
             {
@@ -35,12 +37,68 @@ namespace ConsumirSOAP
             }
 
 
+        }
+
+        private void btnCertificadoNacimiento_Click(object sender, EventArgs e)
+        {
+            SERECI.WebService1SoapClient sw = new SERECI.WebService1SoapClient();
+            SERECI.Persona p = sw.ObtenerCertificadoNacimiento(txtCi.Text);
+            string carnet = txtCi.Text.ToString();
             txtCi.Text = "";
             txtCi.Focus();
 
-            //cl.ObtenerDatos(carnet);
+            if (p != null)
+            {
+                lstViewDatos.Items.Add(p.carnet);
+                lstViewDatos.Items.Add(p.nombre);
+                lstViewDatos.Items.Add(p.primerApellido);
+                lstViewDatos.Items.Add(p.segundoApellido);
+                lstViewDatos.Items.Add(p.fechaNacimiento);
+                lstViewDatos.Items.Add(p.datosPadre);
+                lstViewDatos.Items.Add(p.datosMadre);
+            }
 
-            //lstViewDatos.Items.Add(cl.ObtenerDatos(carnet));
+        }
+
+        private void btnCertificadoMatrimonio_Click(object sender, EventArgs e)
+        {
+            SERECI.WebService1SoapClient sw = new SERECI.WebService1SoapClient();
+            SERECI.Persona p = sw.ObtenerCertificadoMatrimonio(txtCi.Text);
+            string carnet = txtCi.Text.ToString();
+            txtCi.Text = "";
+            txtCi.Focus();
+
+            if (p != null)
+            {
+                lstViewDatos.Items.Add(p.carnet);
+                lstViewDatos.Items.Add(p.nombre);
+                lstViewDatos.Items.Add(p.primerApellido);
+                lstViewDatos.Items.Add(p.segundoApellido);
+                lstViewDatos.Items.Add(p.esposo.carnet);
+                lstViewDatos.Items.Add(p.esposo.nombre);
+                lstViewDatos.Items.Add(p.esposo.primerApellido);
+                lstViewDatos.Items.Add(p.esposo.segundoApellido);
+            }
+
+        }
+
+        private void btnCertificadoDefuncion_Click(object sender, EventArgs e)
+        {
+            SERECI.WebService1SoapClient sw = new SERECI.WebService1SoapClient();
+            SERECI.Persona p = sw.ObtenerCeritificadoDefunsion(txtCi.Text);
+            string carnet = txtCi.Text.ToString();
+            txtCi.Text = "";
+            txtCi.Focus();
+
+            if (p != null)
+            {
+                lstViewDatos.Items.Add(p.carnet);
+                lstViewDatos.Items.Add(p.nombre);
+                lstViewDatos.Items.Add(p.primerApellido);
+                lstViewDatos.Items.Add(p.segundoApellido);
+                lstViewDatos.Items.Add(p.fechaNacimiento);
+                lstViewDatos.Items.Add(p.causa);
+            }
         }
     }
     
