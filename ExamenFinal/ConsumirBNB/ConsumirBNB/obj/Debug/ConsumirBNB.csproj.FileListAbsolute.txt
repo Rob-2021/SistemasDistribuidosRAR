@@ -1,0 +1,10 @@
+D:\Trabajos\SIS-258 Sistemas Distribuidos\SistemasDistribuidosRAR\ExamenFinal\ConsumirBNB\ConsumirBNB\bin\Debug\ConsumirBNB.exe.config
+D:\Trabajos\SIS-258 Sistemas Distribuidos\SistemasDistribuidosRAR\ExamenFinal\ConsumirBNB\ConsumirBNB\bin\Debug\ConsumirBNB.exe
+D:\Trabajos\SIS-258 Sistemas Distribuidos\SistemasDistribuidosRAR\ExamenFinal\ConsumirBNB\ConsumirBNB\bin\Debug\ConsumirBNB.pdb
+D:\Trabajos\SIS-258 Sistemas Distribuidos\SistemasDistribuidosRAR\ExamenFinal\ConsumirBNB\ConsumirBNB\obj\Debug\ConsumirBNB.csproj.AssemblyReference.cache
+D:\Trabajos\SIS-258 Sistemas Distribuidos\SistemasDistribuidosRAR\ExamenFinal\ConsumirBNB\ConsumirBNB\obj\Debug\ConsumirBNB.Form1.resources
+D:\Trabajos\SIS-258 Sistemas Distribuidos\SistemasDistribuidosRAR\ExamenFinal\ConsumirBNB\ConsumirBNB\obj\Debug\ConsumirBNB.Properties.Resources.resources
+D:\Trabajos\SIS-258 Sistemas Distribuidos\SistemasDistribuidosRAR\ExamenFinal\ConsumirBNB\ConsumirBNB\obj\Debug\ConsumirBNB.csproj.GenerateResource.cache
+D:\Trabajos\SIS-258 Sistemas Distribuidos\SistemasDistribuidosRAR\ExamenFinal\ConsumirBNB\ConsumirBNB\obj\Debug\ConsumirBNB.csproj.CoreCompileInputs.cache
+D:\Trabajos\SIS-258 Sistemas Distribuidos\SistemasDistribuidosRAR\ExamenFinal\ConsumirBNB\ConsumirBNB\obj\Debug\ConsumirBNB.exe
+D:\Trabajos\SIS-258 Sistemas Distribuidos\SistemasDistribuidosRAR\ExamenFinal\ConsumirBNB\ConsumirBNB\obj\Debug\ConsumirBNB.pdb
